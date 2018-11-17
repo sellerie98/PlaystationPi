@@ -18,42 +18,7 @@ Verbunden werden die beiden Geräte über einen Netzwerkswitch, welcher ebenfall
 	- ethernet Kupplung/ethernet male-female Kabel (0,6-1€)
 	- PS2 to HDMI Adapter (5€)
 	- HDMI female female (2x0,6€)
-	
-
-### Außen:
-
-- Kann ich alle LEDs mit dem Pi ordentlich steuern?
-	- Abhängig von Spannung
-	- Evtl muss ich die Stecker zer/abschneiden
-
-- Was mache ich mit dem Powerbutton (bzw. Reset button, falls vorhanden)
-	- Brauche ich mehr status LEDs?
-	- LED Ring für Designkram und so vorne drankleben?
-		- XBOX 360 Ring Startanimation beim Start der PS2 nachbauen?
-		- Was zeige ich wie an?
-			- Ist das sinnvoll?
-
-- (Wie) führe ich die Controller/Memcard Ports nach Außen?
-	- Extension cords existieren bei aliexpress
-	- Passt das alles mit dem anderen Kram in das Gehäuse? Wo soll das alles hin?
-
-- Wie führe ich Video/audio nach Außen?
-	- Kabel zerschneiden+richtigen Port nach Außen legen (Scart/composite)
-	- Kabel innen anschließen, zugentlasten (Heißkleber) und direkt nach außen legen?
-
-- Wie führe ich Ethernet nach außen?
-	- Kabel von hinten und Kupplung an Blende heißklebern?
-
-- Strom/Video/Eth/USB auf ne I/O Blende?
-	- Strom evtl nicht so, dafür eher PSUplatz benutzen
-	- Video/Eth sind sinnvoll
-	- blanke I/O Blende bei thingiverse ziehen und modifizieren?
-
-- USB Ports?
-	- Vorne: Pi?
-		- Kabel zerschneiden notwendig? (Vermutlich ja :/)
-	- Hinten: PS2?
-		- USB verl. Kabel nötig
+	- eine Eisenplatte
 
 ### Innen:
 
@@ -79,6 +44,10 @@ Verbunden werden die beiden Geräte über einen Netzwerkswitch, welcher ebenfall
 - Passt alles ins Gehäuse?
 	- muss man ausprobieren
 	- Passt das mit Netzteil und Kühlungskonzept zusammen?
+	- Ja, wenn ich ne zweite Ebene ins Gehäuse baue.
+		- Blechplatten:
+			- 1.: Pi + Switch
+			- 2.: PS2
 
 - Wie fixiere ich die Geräte?	
 	- Heißkleber: wird bei den Temperaturen weich, maximal für Switch machbar
@@ -122,3 +91,39 @@ Verbunden werden die beiden Geräte über einen Netzwerkswitch, welcher ebenfall
 		- Ohne Shield kein PS2 Laufwerk
 	- Contra:
 		- behindert evtl Kühlung der PS2	
+
+
+### Außen:
+
+- Kann ich alle LEDs mit dem Pi ordentlich steuern?
+	- Abhängig von Spannung
+	- Evtl muss ich die Stecker zer/abschneiden
+
+- Was mache ich mit dem Powerbutton (bzw. Reset button, falls vorhanden)
+	- Brauche ich mehr status LEDs?
+	- LED Ring für Designkram und so vorne drankleben?
+		- XBOX 360 Ring Startanimation beim Start der PS2 nachbauen?
+		- Was zeige ich wie an?
+			- Ist das sinnvoll?
+
+- (Wie) führe ich die Controller/Memcard Ports nach Außen?
+	- Extension cords existieren bei aliexpress
+	- Passt das alles mit dem anderen Kram in das Gehäuse? Wo soll das alles hin?
+
+- Wie führe ich Video/audio nach Außen?
+	- Kabel zerschneiden+richtigen Port nach Außen legen (Scart/composite)
+	- Kabel innen anschließen, zugentlasten (Heißkleber) und direkt nach außen legen?
+
+- Wie führe ich Ethernet nach außen?
+	- Kabel von hinten und Kupplung an Blende heißklebern?
+
+- Strom/Video/Eth/USB auf ne I/O Blende?
+	- Strom evtl nicht so, dafür eher PSUplatz benutzen
+	- Video/Eth sind sinnvoll
+	- blanke I/O Blende bei thingiverse ziehen und modifizieren?
+
+- USB Ports?
+	- Vorne: Pi?
+		- Kabel zerschneiden notwendig? (Vermutlich ja :/)
+	- Hinten: PS2?
+		- USB verl. Kabel nötig
