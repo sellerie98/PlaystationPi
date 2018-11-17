@@ -9,7 +9,7 @@ Verbunden werden die beiden Geräte über einen Netzwerkswitch, welcher ebenfall
 
 ## Backlog:
 
-* Außen:
+### Außen:
 
 - Kann ich alle LEDs mit dem Pi ordentlich steuern?
 	- Abhängig von Spannung
@@ -44,7 +44,7 @@ Verbunden werden die beiden Geräte über einen Netzwerkswitch, welcher ebenfall
 	- Hinten: PS2?
 		- USB verl. Kabel nötig
 
-* Innen:
+### Innen:
 
 ! Die Ps2 startet nur wenn man sie lang genug mit Strom maltretiert.
 	Solved: Dicken Kondensator zwischen + und - vom Stepdown angeschlossen
