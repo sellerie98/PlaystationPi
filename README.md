@@ -9,6 +9,17 @@ Verbunden werden die beiden Geräte über einen Netzwerkswitch, welcher ebenfall
 
 ## Backlog:
 
+- Evtl nötige Ausgaben:
+	- 1 Netzteil 12V 5-10A (10-20€)
+	- Multitap wäre weniger Frickelarbeit und billiger (7-8€)
+	- 1-2 Fans für Kühlung
+	- 2x(?) USB verl. Kabel (~1€/p max)
+	- Flachband ethernet Kabel (kann ich die nicht evtl doch noch durch IDE-Flachband o.ä. ersetzen? bzw. selbst crimpen? (unerheblich-70ct/1x25cm)
+	- ethernet Kupplung/ethernet male-female Kabel (0,6-1€)
+	- PS2 to HDMI Adapter (5€)
+	- HDMI female female (2x0,6€)
+	
+
 ### Außen:
 
 - Kann ich alle LEDs mit dem Pi ordentlich steuern?
