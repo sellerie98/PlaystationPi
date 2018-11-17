@@ -130,11 +130,10 @@ Verbunden werden die beiden Geräte über einen Netzwerkswitch, welcher ebenfall
 	- Passt das alles mit dem anderen Kram in das Gehäuse? Wo soll das alles hin?
 
 - Wie führe ich Video/audio nach Außen?
-	- Kabel zerschneiden+richtigen Port nach Außen legen (Scart/composite)
-	- Kabel innen anschließen, zugentlasten (Heißkleber) und direkt nach außen legen?
+	- HDMI Adapter und HDMI nach außen legen!	
 
 - Wie führe ich Ethernet nach außen?
-	- Kabel von hinten und Kupplung an Blende heißklebern?
+	- Kabel von hinten und Kupplung an Blende heißklebern...
 
 - Strom/Video/Eth/USB auf ne I/O Blende?
 	- Strom evtl nicht so, dafür eher PSUplatz benutzen
