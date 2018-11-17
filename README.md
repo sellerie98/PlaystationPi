@@ -99,8 +99,27 @@ Verbunden werden die beiden Geräte über einen Netzwerkswitch, welcher ebenfall
 	- Abhängig von Spannung
 	- Evtl muss ich die Stecker zer/abschneiden
 
+- Kann ich den State der PS2 ordentlich ermitteln?
+	- Ja, wenn ich den LED pin finde, der die rote/grüne LED auf dem front panel versorgen würde
+		- an GPIO hängen und ermitteln, ob Spannung anliegt (Im Falle, dass dort 3,3V landen)
+			- GPIO ist zum ermitteln von <3,3V oder >3,3V geeignet
+
 - Was mache ich mit dem Powerbutton (bzw. Reset button, falls vorhanden)
 	- Brauche ich mehr status LEDs?
+		- Benötigt:
+			- Status des Pis
+			- Status der PS2 (on/off)
+			- Load des Pis
+			- Lade d. PS2  "offen/zu" (dies ist eh nur noch emuliert)
+		- Habe ich:
+			- Power LED des Gehäuses
+			- HDD LED des Gehäuses
+				- Load des Extra-Massenspeichers abbilden?
+			- LED Ring
+				- PS2 an?
+				- Lade offen/zu?
+				- (Fancy Animations bei Statusänderungen?)
+
 	- LED Ring für Designkram und so vorne drankleben?
 		- XBOX 360 Ring Startanimation beim Start der PS2 nachbauen?
 		- Was zeige ich wie an?
