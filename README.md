@@ -1,13 +1,13 @@
 # Playstation Pi
 
-** Konzept:
+## Konzept:
 
 Playstation 2 per Netzwerk mit einem Raspberry Pi zur Steuerung und zum streamen von Spielen via Samba (und evtl von dvd, mal abwarten) von einem USB-Speichermedium bzw. von einer Festplatte, welche per USB mit dem Raspberry Pi angeschlossen ist.
 Die Steuerung erfolgt über Kurzschließen von GPIOs für einen bestimmten Zeitintervall bzw. über Relays, die gesteuert werden.
 Die LEDs werden über GPIOs gesteuert, die jeweils ein- oder ausgeschaltet werden.
 Verbunden werden die beiden Geräte über einen Netzwerkswitch, welcher ebenfalls mit verbaut wird.
 
-=== Backlog ===
+## Backlog:
 
 * Außen:
 
