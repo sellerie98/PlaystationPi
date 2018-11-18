@@ -95,9 +95,13 @@ Verbunden werden die beiden Geräte über einen Netzwerkswitch, welcher ebenfall
 
 ### Außen:
 
-- Kann ich alle LEDs mit dem Pi ordentlich steuern?
-	- Abhängig von Spannung
-	- Evtl muss ich die Stecker zer/abschneiden
+! Kann ich die FP LEDs/den FP switch mit dem Pi sinnvoll betreiben?
+	- https://developer-blog.net/wp-content/uploads/2013/09/raspberry-pi-rev2-gpio-pinout.jpg
+	- LEDs leuchten erfolgreich:
+		- HDD LED an: GND/GPIO11
+		- Power LED an: GND/GPIO25
+		- Switch an: GPIO10/3V3(P17)	
+
 
 - Kann ich den State der PS2 ordentlich ermitteln?
 	- Ja, wenn ich den LED pin finde, der die rote/grüne LED auf dem front panel versorgen würde
