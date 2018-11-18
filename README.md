@@ -18,7 +18,7 @@ Verbunden werden die beiden Geräte über einen Netzwerkswitch, welcher ebenfall
 	- ethernet Kupplung/ethernet male-female Kabel (0,6-1€)
 	- PS2 to HDMI Adapter (5€)
 	- HDMI female female (2x0,6€)
-	- eine Eisenplatte
+	- zwei Eisenplatten
 
 ### Innen:
 
