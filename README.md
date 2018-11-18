@@ -22,8 +22,6 @@ Verbunden werden die beiden Geräte über einen Netzwerkswitch, welcher ebenfall
 
 ### Innen:
 
-! Die Ps2 startet nur wenn man sie lang genug mit Strom maltretiert.
-	Solved: Dicken Kondensator zwischen + und - vom Stepdown angeschlossen
 
 - Kann/werde ich das originale PS2 Laufwerk benutzen?
 	- Habe ich genug Platz im Gehäuse für ne Disk?
@@ -95,14 +93,6 @@ Verbunden werden die beiden Geräte über einen Netzwerkswitch, welcher ebenfall
 
 ### Außen:
 
-! Kann ich die FP LEDs/den FP switch mit dem Pi sinnvoll betreiben?
-	- https://developer-blog.net/wp-content/uploads/2013/09/raspberry-pi-rev2-gpio-pinout.jpg
-	- LEDs leuchten erfolgreich:
-		- HDD LED an: GND/GPIO11
-		- Power LED an: GND/GPIO25
-		- Switch an: GPIO10/3V3(P17)	
-
-
 - Kann ich den State der PS2 ordentlich ermitteln?
 	- Ja, wenn ich den LED pin finde, der die rote/grüne LED auf dem front panel versorgen würde
 		- an GPIO hängen und ermitteln, ob Spannung anliegt (Im Falle, dass dort 3,3V landen)
@@ -149,3 +139,18 @@ Verbunden werden die beiden Geräte über einen Netzwerkswitch, welcher ebenfall
 		- Kabel zerschneiden notwendig? (Vermutlich ja :/)
 	- Hinten: PS2?
 		- USB verl. Kabel nötig
+
+## Done:
+
+### Innen:
+! Die Ps2 startet nur wenn man sie lang genug mit Strom maltretiert.
+	Solved: Dicken Kondensator zwischen + und - vom Stepdown angeschlossen
+
+### Außen:
+
+! Kann ich die FP LEDs/den FP switch mit dem Pi sinnvoll betreiben?
+	- https://developer-blog.net/wp-content/uploads/2013/09/raspberry-pi-rev2-gpio-pinout.jpg
+	- LEDs leuchten erfolgreich:
+		- HDD LED an: GND/GPIO11
+		- Power LED an: GND/GPIO25
+		- Switch an: GPIO10/3V3(P17)	
