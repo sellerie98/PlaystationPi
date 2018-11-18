@@ -149,8 +149,9 @@ Verbunden werden die beiden Geräte über einen Netzwerkswitch, welcher ebenfall
 ### Außen:
 
 ! Kann ich die FP LEDs/den FP switch mit dem Pi sinnvoll betreiben?
-	- https://developer-blog.net/wp-content/uploads/2013/09/raspberry-pi-rev2-gpio-pinout.jpg
-	- LEDs leuchten erfolgreich:
+	- (Angaben nach https://developer-blog.net/wp-content/uploads/2013/09/raspberry-pi-rev2-gpio-pinout.jpg )
+	- LEDs leuchten erfolgreich und Switch switched:
+		- exportieren der GPIOS 11, 25 und 10 notwendig
 		- HDD LED an: GND/GPIO11
 		- Power LED an: GND/GPIO25
 		- Switch an: GPIO10/3V3(P17)	
