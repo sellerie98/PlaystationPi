@@ -36,35 +36,28 @@ Verbunden werden die beiden Geräte über einen Netzwerkswitch, welcher ebenfall
 		- PS2 an Stepdown auf 8,5V (3A reicht wohl)
 		- Switch an 12V
 		- Pi an Stepdown auf 5V (3A sollte reichen, brauch da evtl noch einen)
-	- eigenes PCB mit z.B. Sicherungen, Stepdown etc.?
-		- Pro: Weniger Kabelwirrwar, wäre ne richtig ordentliche Lösung
-		- Contra: Recht Aufwändig, komm in KiCAD noch nicht wirklich zurecht
+	- Lochrasterplatine zur Spannungsverteilung
+		- Pro: Weniger finanzieller Aufwand, kann ich selbst bauen
+		- Contra: Ist weniger schön als ein eigenes PCB
 
 - Passt alles ins Gehäuse?
 	- muss man ausprobieren
 	- Passt das mit Netzteil und Kühlungskonzept zusammen?
 	- Ja, wenn ich ne zweite Ebene ins Gehäuse baue.
-		- Blechplatten:
+		- Blechplatten flexen:
 			- 1.: Pi + Switch
 			- 2.: PS2
 
 - Wie fixiere ich die Geräte?	
-	- Heißkleber: wird bei den Temperaturen weich, maximal für Switch machbar
-	- Tape: Hält nicht besonders lange und ist auch nicht besonders temperaturstabil.
-	- Epoxy: Ich würde den Kram irgendwann ganz gerne nochmal demontieren können.
-	- Schraublöcher/Schraubhalter festnieten?
-		- Wäre die ordentlichste Lösung
-		- Geht das nicht irgendwie anders besser?
-			- Schraubhalter mit Heißkleber fixieren?
-				Pro: Wäre bedeutend weniger Aufwand
-				Contra: Wärmetechnische Bedenken
-
+	- Schraublöcher/Schraubhalter festnieten
+		- Schraubhalter festschrauben
 
 - Kühlung?
 	- Ist der stock fan zu laut?
+		- Der Stock fan ist IMO kacke
 	- Kann ich die Kühlung effizienter lösen?
 		- Airflow durch das komplette Gehäuse, um Pi und Wandler noch mitzunehmen
-	- Wärmeleitpads: Wäre ne Idee. LEiten einerseits Wärme recht gut ab, aber sind nicht leitend.
+	- Wärmeleitpads: Wäre ne Idee. Leiten einerseits Wärme recht gut ab, aber sind nicht leitend.
 		- Brauche ich für CPU/GPU neue Pads?
 			- Wie funktioniert die Kühlung der PS2 genau?
 				-  Was haben evtl die Shields damit zu tun?
@@ -156,3 +149,10 @@ Verbunden werden die beiden Geräte über einen Netzwerkswitch, welcher ebenfall
 		- HDD LED an: GND/GPIO11
 		- Power LED an: GND/GPIO25
 		- Switch an: GPIO10/3V3(P17)	
+
+
+Pläne für V2 (Ad Acta):
+Powerkonzept:
+	- eigenes PCB mit z.B. Sicherungen, Stepdown etc.?
+		- Pro: Weniger Kabelwirrwar, wäre ne richtig ordentliche Lösung
+		- Contra: Recht Aufwändig, komm in KiCAD noch nicht wirklich zurecht
