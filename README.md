@@ -10,15 +10,16 @@ Verbunden werden die beiden Geräte über einen Netzwerkswitch, welcher ebenfall
 ## Backlog:
 
 - Evtl nötige Ausgaben:
-	- 1 Netzteil 12V 5-10A (10-20€)
+	- 1 Netzteil 12V 5-10A ~7€
+		-https://www.aliexpress.com/item/12V-Power-Supply-DC12V-Adapter-1A-2A-3A-5A-6A-8A-10A-Transformer-AC-110V-220V/32906575094.html
 	- Multitap wäre weniger Frickelarbeit und billiger (7-8€)
 	- 1-2 Fans für Kühlung
 	- 2x(?) USB verl. Kabel (~1€/p max)
 	- Flachband ethernet Kabel (kann ich die nicht evtl doch noch durch IDE-Flachband o.ä. ersetzen? bzw. selbst crimpen? (unerheblich-70ct/1x25cm)
 	- ethernet Kupplung/ethernet male-female Kabel (0,6-1€)
 	- PS2 to HDMI Adapter (5€)
-	- HDMI female female (2x0,6€)
-	- zwei Eisenplatten
+	- HDMI female female (0,6€)
+	- zwei Eisenplatten (Ersetzen durch Lochraster
 
 ### Innen:
 
